@@ -16,7 +16,7 @@ html, body{
 body{
   font-family: "Cormorant Garamond", serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   /* margin-left: 35%; */
 }
@@ -231,6 +231,58 @@ font-size: 1.1rem;
     flex-direction: column;
 
 } */
-.my_profile img{
+@media(max-width:1500px){
+    .center{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_sidebar{
+        position: sticky;
+        width: 100%;
+        padding:20px;
+        
+        height: ;
+        margin-bottom: 20px;
+    }
+    nav{
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+    main{
+        margin-left: 0px;
+    }
+    header{
+        display: none;
+    }
+     .links {
+        margin: 5px; 
+        padding: 0.8rem;
+    }
+    section{
+        height: auto;
+        padding-bottom: 50px;
+    }
+     #about_me, #work {
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+    }
+     .skills {
+        width: 95%;
+    }
 
+    .skill_box {
+        width: 100%; 
+        flex-direction: column; 
+        gap: 15px;
+        padding: 30px;
+    }
+        .my_profile {
+        flex-direction: column;
+        text-align: center;
+    }
+    #contact {
+        position: static; 
+
+    }
 }
