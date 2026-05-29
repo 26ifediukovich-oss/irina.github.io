@@ -286,3 +286,30 @@ font-size: 1.1rem;
 
     }
 }
+#projects {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project_box {
+    background: #f9f9f9; /* Or match your skill_box background color */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.project_header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+
+.project_link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
